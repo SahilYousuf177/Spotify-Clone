@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+.main{
+  padding: 0.5rem;
+} 
+.navbar{
+  display: flex;
+  height: 3rem;
+  position: sticky;
+  background-color: #000000;
+  top: 2px;
+  justify-content: space-between;
+}
+.navbar-left-items{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+}
+.search-bar{
+  display: flex;
+  
+}
+.home-icon{
+  padding: 0.5rem;
+  background-color: #1f1f1f;
+  border-radius: 50%;
+  justify-content: center;
+}
+.search-icon{
+  background-color: #1f1f1f;
+  width: 474px;
+  padding: 0 0.5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  margin-left: 0.6rem;
+}
+.shortcut-k{
+  opacity: 0; 
+}
+.search-icon:hover .shortcut-k{
+  opacity: 1;
+}
+.search-icon:focus-within {
+  border: 2px solid white;
+}
+.ctrl{
+  border: 1px solid grey;
+  padding: 0.3rem;
+}
+.k{
+  border: 1px solid grey;
+  padding: 0.3rem;
+  margin-left: 0.3rem;
+}
+.browse{
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+ 
+}
+.icon3{
+   border-left: 1px solid rgb(171, 165, 165);
+   padding: 0 0.5rem;
+}
+.icon{
+  font-size: 1.5rem;
+}
+.icon2{
+  font-size: 1.4rem;
+  padding: 0 0.4rem;
+}
+.icon4{
+  font-size: 1rem;
+}
+.navbar-right-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.Ex-p-btn{
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.6rem 1rem;
+  font-size: 0.775rem;
+  font-weight: 700;
+}
+.install-aap{
+  padding: 0.3rem 1rem 0.3rem 2.3rem;
+}
+.notification-people{
+  padding: 0 1rem;
+}
+.sidebar{
+  background-color: #121212;
+  border-radius: 0.5rem;
+  width: 31%;
+}
+.library-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 0.5rem 1rem;
+  height: 50px;
+}
+.card-section{
+  padding: 0 0.5rem 0.5rem 0.5rem; 
+}
+.card-1{
+  background-color: #1f1f1f;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin: 0.5rem 0;
+}
+.card-header{
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  height: 100vh;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+}
+.main-container{
+  flex: 1;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  background-color: #1f1f1f;
+  overflow: auto;
+}
+.container-top-nav-items{
+  display: flex;
+  align-items: center;
+  padding: 0 2.5rem;
+  padding-top: 0.5rem;
+  height: 3.5rem;
+  position: sticky;
+  top: 0.5rem;
+}
+.container-top-nav-items  div{
+  margin-right: 0.5rem;
+}
+.all-btn{
+  background-color: white;
+  color: black;
+  padding: 0.5rem 0.7rem;
+  border-radius: 2rem;
+}
+.music-btn{
+  background-color: #ffffff1a;
+   padding: 0.5rem 0.7rem;
+  border-radius: 2rem;
+}
+.music-album{
+  padding: 0 2.5rem;
+}
+.album-header{
+  height: 48px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.album-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.album1{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 150px;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.img-card{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 95%;
+  height: 72px;
+  background-color: #000000;
+  padding: 0 0.5rem; 
+}
+.track-img{
+  display: flex;
+  align-items: center;
+}
+.audio-control{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+}
+.volume-controls{
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+}
+
